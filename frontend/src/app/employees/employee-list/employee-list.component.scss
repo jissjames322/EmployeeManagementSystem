@@ -1,0 +1,95 @@
+// Container styling
+.container {
+  margin-top: 20px;
+}
+
+// Header styling
+.header {
+  margin-bottom: 20px;
+
+  .custom-margin-search {
+    margin-bottom: 10px;
+  }
+
+  .custom-margin-add {
+    float: right;
+  }
+
+  input[type='text'] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  a.btn-outline-primary {
+    background-color: #ffffff;
+    color: #007bff;
+    border-color: #007bff;
+
+    &:hover {
+      background-color: #007bff;
+      color: #ffffff;
+    }
+  }
+}
+
+// Table styling
+.table {
+  th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  td {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+
+  .btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+
+    &:hover {
+      background-color: #17a2b8;
+      color: white;
+    }
+  }
+
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+
+    &:hover {
+      background-color: #dc3545;
+      color: white;
+    }
+  }
+}
+
+// Footer
+.footer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+// Responsive design
+@media (max-width: 576px) {
+  .header .row {
+    flex-direction: column;
+
+    .col-sm-8, .col-sm-4 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .custom-margin-add {
+      float: none;
+      width: 100%;
+    }
+  }
+}

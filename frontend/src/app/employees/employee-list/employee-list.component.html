@@ -1,0 +1,75 @@
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <div class="row">
+      <!-- Search Employee -->
+      <div class="col-sm-8">
+        <input
+          type="text"
+          class="form-control custom-margin-search"
+          placeholder="Search Test here"
+        />
+      </div>
+
+      <!-- Add Employee -->
+      <div class="col-sm-4">
+        <a
+          [routerLink]="['/employees/add']"
+          role="button"
+          class="btn btn-outline-primary custom-margin-add"
+        >
+          <i class="fa fa-user-plus fa-lg"></i> Add Employee
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <!-- List Employees -->
+  <div class="container">
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>EMP ID</th>
+          <th>FULLNAME</th>
+          <th>Designation</th>
+          <th>Join Date</th>
+          <th>Active</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employeeService.employees">
+          <td>{{ employee.EmployeeId }}</td>
+          <td>{{ employee.EmployeeName }}</td>
+          <td>{{ employee.Designation }}</td>
+          <td>{{ employee.DateOfJoining }}</td>
+          <td>
+            <input type="checkbox" [checked]="employee.IsActive" disabled />
+          </td>
+          <td>
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-info"
+              (click)="editEmployee(employee)"
+            >
+              <i class="fa fa-edit"></i>
+            </button>
+            &nbsp;
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-danger"
+              (click)="deleteEmployee(employee.EmployeeId)"
+            >
+              <i class="fa fa-trash"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer text-end"></div>
+  </div>
+</div>
