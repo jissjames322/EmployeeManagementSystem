@@ -123,6 +123,7 @@ pyOpenSSL==25.0.0
 pyreadline3==3.5.4
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
+python-decouple==3.8
 python-json-logger==3.2.1
 pytube==15.0.0
 pytz==2025.1
