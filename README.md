@@ -16,7 +16,12 @@ A full-stack Employee Management System built using **Django + MySQL** for the b
 
 ---
 
+## Demo
+
+[![Run Demo](https://img.shields.io/badge/Run_Demo-4D4D4D.svg?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://remarkable-panda-d731be.netlify.app/)
+
 ## 🧱 Tech Stack
+
 
 ### Backend – Django
 
