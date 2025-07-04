@@ -144,9 +144,9 @@ Final EMS/
 
 > Add your UI screenshots here later. Example layout:
 
-| Login Page | Dashboard | Add Employee |
-|------------|-----------|---------------|
-| ![](screenshots/login.png) | ![](screenshots/dashboard.png) | ![](screenshots/add-employee.png) |
+| Login Page | List Employee | Add Employee | Edit Employee |
+|------------|-----------|-----------|---------------|
+| ![](screenshots/login.png) |![](screenshots/list.png) | ![](screenshots/add.png) | ![](screenshots/edit.png) |
 
 ---
 
