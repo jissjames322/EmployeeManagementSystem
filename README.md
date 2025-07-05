@@ -20,6 +20,18 @@ A full-stack Employee Management System built using **Django + MySQL (Changed to
 
 [![Run Demo](https://img.shields.io/badge/Run_Demo-4D4D4D.svg?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://emsfaith.netlify.app/)
 
+
+### Demo User Credential's
+
+- Backend is deployed on Render 
+- Frontend is deployed on Netlify
+  
+   ```bash
+   Username : jiss
+   password : jiss
+   ```
+
+
 ## 🧱 Tech Stack
 
 
