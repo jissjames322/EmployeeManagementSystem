@@ -40,29 +40,6 @@ A full-stack Employee Management System built using **Django + MySQL** for the b
 
 ---
 
-## 📁 Project Structure
-
-```plaintext
-Final EMS/
-│
-├── backend/               # Django Backend
-│   ├── ems/               # Django Project Directory
-│   ├── api/               # Django App for API Logic
-│   ├── media/             # Uploaded Files (optional)
-│   └── manage.py
-│
-├── frontend/              # Angular Frontend
-│   ├── src/
-│   │   ├── app/
-│   │   └── assets/
-│   ├── angular.json
-│   └── package.json
-│
-└── README.md
-```
-
----
-
 ## ⚙️ Getting Started
 
 ### ✅ Prerequisites
