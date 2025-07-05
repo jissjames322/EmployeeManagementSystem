@@ -1,6 +1,6 @@
 # 🏢 Employee Management System (EMS)
 
-A full-stack Employee Management System built using **Django + MySQL** for the backend and **Angular** for the frontend. This application allows admin users to manage employee records, including CRUD operations, authentication, and role-based access, with a responsive and interactive UI.
+A full-stack Employee Management System built using **Django + MySQL (Changed to PostgreSQL)** for the backend and **Angular** for the frontend. This application allows admin users to manage employee records, including CRUD operations, authentication, and role-based access, with a responsive and interactive UI.
 
 ---
 
@@ -8,11 +8,11 @@ A full-stack Employee Management System built using **Django + MySQL** for the b
 
 - 🔐 User authentication & authorization
 - 👨‍💼 Employee management (Create, Read, Update, Delete)
-- 📅 Department & role assignment
-- 🔍 Search & filter functionality
+- 📅 Department & Employee creation
+- 🔍 Search & filter functionality (Not Fixed)
 - 🧾 RESTful APIs with Django REST Framework
 - 🌐 Fully responsive Angular frontend
-- 🛡️ Role-based access control (Admin, Staff, etc.)
+- 🛡️ Role-based access control (Admin, etc.)
 
 ---
 
